@@ -1,0 +1,71 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="p" />
+            <item index="7" class="java.lang.String" itemvalue="hr" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="djangorestframework" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.subject" />
+          <option value="object.markschreme" />
+          <option value="object.pass_mark" />
+          <option value="dict.iteritems" />
+          <option value="django.db.models.fields.DateTimeField.timestamp" />
+          <option value="library.authentication.models.CustomUser.*" />
+          <option value="library.author.models.Author.*" />
+          <option value="library.book.models.Book.*" />
+          <option value="django.db.models.fields.related.ManyToManyField.*" />
+          <option value="library.order.models.Order.*" />
+          <option value="book.models.Book.*" />
+          <option value="author.models.Author.*" />
+          <option value="order.models.Order.*" />
+          <option value="women.models.Women.*" />
+          <option value="cars.models.Car.*" />
+          <option value="women.models.Category.*" />
+          <option value="list.filter" />
+          <option value="django.db.models.fields.CharField.*" />
+          <option value="django.db.models.fields.related.OneToOneField.*" />
+          <option value="services.models.Subscription.*" />
+          <option value="clients.models.Client.*" />
+          <option value="store.models.Order.*" />
+          <option value="store.models.Category.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
